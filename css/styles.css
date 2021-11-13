@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding : 0px;
+}
+
+header {
+    background-image: url("../images/cropped.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding: 15px;
+    height:300px;
+
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-section {
+    padding: 25px;
+    display: flex;
+}
+
+.features figure {
+    background-color: pink;
+    margin: auto;
+    width: 100px;
+
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    clear: both;
+}
+
+/* ul particularly contains some spacings e. padding, margins */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 25px;
+    color: white;
+}
+
+.image a {
+    background-image: url("../images/artisian-logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    text-indent: -9999999px;
+    height: 80px;
+    width: 300px;
+    top: -30px;
+}
+
+li:hover {
+    background-color: #069370;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.image-section {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px ease solid white;
+    box-shadow: gray 0 0 10px;
+}
+
+section figure figcaption {
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-about{
+    display: flex;
+    padding: 20px;
+}
+
+.headline {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.h3-tag {
+    text-align: center;
+}
+
+.left-about {
+    float: left;
+    text-align: center;
+    padding: 35px 70px;
+    color: #616161;
+}
+
+.font-style {
+    letter-spacing: 0px;
+}
+
+.about-image{
+    padding: 25px 45px;
+    height: 800px;
+}
+
+.right-about {
+    float: right;
+}
+
+.clear-fixes{
+    clear: both;
+}
+
+.left-location {
+    margin: 5px;
+}
+
+.left-div-location {
+    padding: 25px 50px;
+    font-size: 14px;
+}
+
+.hours{
+    padding: 25px 50px;
+    color: #c82d2d;
+}
+
+.phone {
+    color: #c82d2d;
+}
