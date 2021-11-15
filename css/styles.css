@@ -6,13 +6,14 @@ body {
     padding : 0px;
 }
 
+/* Header starts here */
+
 header {
     background-image: url("../images/cropped.jpg");
     background-size: 100%;
     background-position: center;
     padding: 15px;
     height:300px;
-
     text-align: center;
 }
 
@@ -22,28 +23,7 @@ header a {
     text-transform: uppercase;
 }
 
-.menu-section {
-    padding: 25px;
-    display: flex;
-}
-
-.features figure {
-    background-color: pink;
-    margin: auto;
-    width: 100px;
-
-}
-
-footer {
-    background-color: black;
-    color: gray;
-    font-size: 12px;
-    padding: 2px;
-    text-align: center;
-    clear: both;
-}
-
-/* ul particularly contains some spacings e. padding, margins */
+/* ul particularly contains some spacings i.e padding, margins, list-style-type */
 ul {
     list-style-type: none;
     margin: 0px;
@@ -76,6 +56,22 @@ li:hover {
     padding: 5px;
 }
 
+/* Header ends here */
+
+/* Menu Section */
+
+.menu-section {
+    padding: 25px;
+    display: flex;
+}
+
+.features figure {
+    background-color: pink;
+    margin: auto;
+    width: 100px;
+
+}
+
 .image-section {
     width: 250px;
     height: 250px;
@@ -90,6 +86,10 @@ section figure figcaption {
     text-align: center;
     text-transform: uppercase;
 }
+
+/* Menu section ends here */
+
+/* Artisan Bakers starts here */
 
 .section-about{
     display: flex;
@@ -146,3 +146,18 @@ section figure figcaption {
 .phone {
     color: #c82d2d;
 }
+
+/* Artisan Bakers ends here */
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: gray;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    clear: both;
+}
+
+/* Footer ends here */
