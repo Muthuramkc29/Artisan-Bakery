@@ -4,6 +4,7 @@ body {
     font-family: "Montserrat", sans-serif;
     margin: 0px;
     padding : 0px;
+    box-sizing: border-box;
 }
 
 /* Header starts here */
@@ -54,6 +55,10 @@ li:hover {
     background-color: #069370;
     transition: 0.5s;
     padding: 5px;
+}
+
+.header-mobile {
+    display: none;
 }
 
 /* Header ends here */
@@ -161,3 +166,48 @@ footer {
 }
 
 /* Footer ends here */
+
+/* Media Query header */
+@media screen and (max-width: 760px) {
+    .header-desktop {
+        display: none;
+    }
+    .header-mobile {
+        display: inline-block;
+    }
+    .image {
+        padding: 15px 0 0 0;
+    }
+    header {
+        height: 200px;
+    }
+    nav ul li{
+        margin-top: 0px;
+    }
+    .image a {
+        background-size: 200px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        text-indent: -9999999px;
+        height: 55px;
+        width: 180px;
+        top: -8px;
+    }
+}
+
+/* Media Query Menu Section */
+@media screen and (max-width: 760px) {
+    .menu-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Media Query About Us Section */
+@media screen and (max-width: 760px) {
+    .section-about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
